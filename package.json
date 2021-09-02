@@ -1,0 +1,34 @@
+{
+	"name": "@scottwestover/tsconfig",
+	"version": "0.0.1",
+	"description": "Shared TypeScript config for my projects",
+	"license": "MIT",
+	"repository": {
+    "type": "git",
+    "url": "git+https://github.com/scottwestover/tsconfig.git"
+  },
+	"publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+	"author": {
+		"name": "Scott Westover",
+		"email": "scottwestover2006@gmail.com"
+	},
+	"main": "tsconfig.json",
+	"engines": {
+		"node": ">=16"
+	},
+	"files": [
+		"tsconfig.json"
+	],
+	"keywords": [
+		"tsconfig",
+		"typescript",
+		"ts",
+		"config",
+		"configuration"
+	],
+	"scripts": {
+		"package-publish": "npm publish --registry https://npm.pkg.github.com/"
+	}
+}
