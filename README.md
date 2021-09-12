@@ -8,6 +8,8 @@
 yarn add -DE @scottwestover/tsconfig
 ```
 
+**Note:** In order to install this package, you will need to make sure `npm` is set to download `scottwestover` scoped packages from the GitHub Package Repository. More information on this can be found here: [GitHub Install Packages](https://docs.github.com/en/packages/learn-github-packages/installing-a-package).
+
 ## Usage
 
 `tsconfig.json`
