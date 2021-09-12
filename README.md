@@ -14,45 +14,44 @@ yarn add -DE @scottwestover/tsconfig
 
 ```json
 {
-	"extends": "@scottwestover/tsconfig/tsconfig.json",
-	"compilerOptions": {
-		"outDir": "dist"
-	},
-	"include": [
-		"**/*.ts"
-	]
+  "extends": "@scottwestover/tsconfig/tsconfig.json",
+  "compilerOptions": {
+    "outDir": "dist"
+  },
+  "include": [
+    "**/*.ts"
+  ]
 }
 ```
 
 When you are targeting a higher version of Node.js, check the relevant ECMAScript version and add it as `target`:
 
 ```json
-	{
-	"extends": "@scottwestover/tsconfig/tsconfig.json",
-	"compilerOptions": {
-		"outDir": "dist",
-		"target": "ES2021"
-	},
-	"include": [
-		"**/*.ts"
-	]
-	}
+{
+  "extends": "@scottwestover/tsconfig/tsconfig.json",
+  "compilerOptions": {
+    "outDir": "dist",
+    "target": "ES2021"
+  },
+  "include": [
+    "**/*.ts"
+  ]
+}
 ```
 
 When you are building a NPM package:
 
 ```json
 {
-	"extends": "@scottwestover/tsconfig",
-	"compilerOptions": {
-		"outDir": "dist",
-		"declaration": true
-	},
-	"include": [
-		"**/*.ts"
-	]
+  "extends": "@scottwestover/tsconfig",
+  "compilerOptions": {
+    "outDir": "dist",
+    "declaration": true
+  },
+  "include": [
+    "**/*.ts"
+  ]
 }
-
 ```
 
 ## Publish New Version
