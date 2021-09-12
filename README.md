@@ -4,8 +4,8 @@
 
 ## Install
 
-```
-$ yarn add -DE @scottwestover/tsconfig
+```bash
+yarn add -DE @scottwestover/tsconfig
 ```
 
 ## Usage
@@ -27,7 +27,7 @@ $ yarn add -DE @scottwestover/tsconfig
 When you are targeting a higher version of Node.js, check the relevant ECMAScript version and add it as `target`:
 
 ```json
-{
+	{
 	"extends": "@scottwestover/tsconfig/tsconfig.json",
 	"compilerOptions": {
 		"outDir": "dist",
@@ -36,7 +36,7 @@ When you are targeting a higher version of Node.js, check the relevant ECMAScrip
 	"include": [
 		"**/*.ts"
 	]
-}
+	}
 ```
 
 When you are building a NPM package:

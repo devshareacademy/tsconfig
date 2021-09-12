@@ -4,12 +4,12 @@
 	"description": "Shared TypeScript config for my projects",
 	"license": "MIT",
 	"repository": {
-    "type": "git",
-    "url": "git+https://github.com/scottwestover/tsconfig.git"
-  },
+		"type": "git",
+		"url": "git+https://github.com/scottwestover/tsconfig.git"
+	},
 	"publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
-  },
+		"registry": "https://npm.pkg.github.com/"
+	},
 	"author": {
 		"name": "Scott Westover",
 		"email": "scottwestover2006@gmail.com"
