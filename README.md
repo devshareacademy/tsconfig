@@ -5,10 +5,18 @@
 ## Install
 
 ```bash
-yarn add -DE @scottwestover/tsconfig
+yarn add -DE @devshareacademy/tsconfig
 ```
 
-**Note:** In order to install this package, you will need to make sure `npm` is set to download `scottwestover` scoped packages from the GitHub Package Repository. More information on this can be found here: [GitHub Install Packages](https://docs.github.com/en/packages/learn-github-packages/installing-a-package).
+### Install Via GitHub NPM Packages
+
+You can install this package from the GitHub NPM Package Repository. In order to do this, you must first authenticate with GitHub packages. You can read more about this process here: [GitHub - Installing A GitHub Package](https://docs.github.com/en/packages/working-with-a-github-packages-registry/working-with-the-npm-registry#installing-a-package).
+
+```bash
+yarn config set @lookio:registry https://npm.pkg.github.com/
+echo "//npm.pkg.github.com/:_authToken=<github_personal_access_token>" > .npmrc
+yarn add -DE @devshareacademy/tsconfig
+```
 
 ## Usage
 
@@ -16,7 +24,7 @@ yarn add -DE @scottwestover/tsconfig
 
 ```json
 {
-  "extends": "@scottwestover/tsconfig/tsconfig.json",
+  "extends": "@devshareacademy/tsconfig/tsconfig.json",
   "compilerOptions": {
     "outDir": "dist"
   },
@@ -30,7 +38,7 @@ When you are targeting a higher version of Node.js, check the relevant ECMAScrip
 
 ```json
 {
-  "extends": "@scottwestover/tsconfig/tsconfig.json",
+  "extends": "@devshareacademy/tsconfig/tsconfig.json",
   "compilerOptions": {
     "outDir": "dist",
     "target": "ES2021"
@@ -45,7 +53,7 @@ When you are building a NPM package:
 
 ```json
 {
-  "extends": "@scottwestover/tsconfig",
+  "extends": "@devshareacademy/tsconfig",
   "compilerOptions": {
     "outDir": "dist",
     "declaration": true
@@ -59,17 +67,18 @@ When you are building a NPM package:
 ## Publish New Version
 
 ```bash
-# Authenticate with GitHub NPM Package Registry
-npm login --scope=@scottwestover --registry=https://npm.pkg.github.com
+# Authenticate with NPM Package Registry
+npm login
 
 # Run publish script
-yarn package-publish
+yarn publish:npm
+yarn publish:github
 ```
 
 ---
 
 ## Shared Configurations
 
-- @scottwestover/eslint-config: [eslint-config](https://github.com/scottwestover/eslint-config)
-- @scottwestover/tsconfig: [tsconfig](https://github.com/scottwestover/tsconfig)
-- @scottwestover/prettier-config: [prettier-config](https://github.com/scottwestover/prettier-config)
+- @devshareacademy/eslint-config: [eslint-config](https://github.com/devshareacademy/eslint-config)
+- @devshareacademy/tsconfig: [tsconfig](https://github.com/devshareacademy/tsconfig)
+- @devshareacademy/prettier-config: [prettier-config](https://github.com/devshareacademy/prettier-config)
