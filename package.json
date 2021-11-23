@@ -1,6 +1,6 @@
 {
 	"name": "@devshareacademy/tsconfig",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"description": "Shared TypeScript config for my projects",
 	"license": "MIT",
 	"repository": {
@@ -8,9 +8,9 @@
 		"url": "git+https://github.com/devshareacademy/tsconfig.git"
 	},
 	"bugs": {
-    "url": "https://github.com/devshareacademy/tsconfig/issues"
-  },
-  "homepage": "https://github.com/devshareacademy/tsconfig#readme",
+		"url": "https://github.com/devshareacademy/tsconfig/issues"
+	},
+	"homepage": "https://github.com/devshareacademy/tsconfig#readme",
 	"author": {
 		"name": "Scott Westover",
 		"email": "scottwestover2006@gmail.com"
@@ -27,7 +27,7 @@
 		"configuration"
 	],
 	"scripts": {
-    "publish:npm": "npm publish --registry https://registry.npmjs.org/ --access public --ignore-scripts",
-    "publish:github": "npm publish --registry https://npm.pkg.github.com/ --ignore-scripts"
-  }
+		"publish:npm": "npm publish --registry https://registry.npmjs.org/ --access public --ignore-scripts",
+		"publish:github": "npm publish --registry https://npm.pkg.github.com/ --ignore-scripts"
+	}
 }
