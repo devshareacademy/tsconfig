@@ -29,5 +29,5 @@
 	"scripts": {
     "publish:npm": "npm publish --registry https://registry.npmjs.org/ --access public --ignore-scripts",
     "publish:github": "npm publish --registry https://npm.pkg.github.com/ --ignore-scripts"
-  },
+  }
 }
