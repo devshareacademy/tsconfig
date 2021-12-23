@@ -1,4 +1,7 @@
-# tsconfig
+# @devshareacademy/tsconfig
+
+[![npm version](https://badge.fury.io/js/@devshareacademy%2Ftsconfig.svg)](https://badge.fury.io/js/@devshareacademy%2Ftsconfig)
+[![Publish NPM Package](https://github.com/devshareacademy/tsconfig/actions/workflows/publish-package.yml/badge.svg)](https://github.com/devshareacademy/tsconfig/actions/workflows/publish-package.yml)
 
 > Shared [TypeScript config](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html) for my projects
 
